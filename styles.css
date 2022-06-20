@@ -1,0 +1,13 @@
+html {
+    background-color: antiquewhite;
+}
+
+
+.sketch-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 100vh;
+    flex-direction: column;
+}
