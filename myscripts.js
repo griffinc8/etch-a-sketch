@@ -13,7 +13,7 @@ for (let i = 0; i < len; i++) {
     for (let i = 0; i < wid; i++) {
         const rowdiv = document.createElement('div')
         rowdiv.classList.add('Tile')
-        rowdiv.setAttribute("style", "border: .4rem solid black; background: rgba(0,0,0,0.4); border-radius: .5rem; margin: 0rem; font-size: 1.5rem; padding: 0rem ; width: 50%; text-align: center; color: white; text-shadow: 0 0 .5rem black; flex-grow: 1; height: 70%;")
+        rowdiv.setAttribute("style", "border:.4 rem solid black; background: rgba(0,0,0,0.4); border-radius: .5rem; margin: 0rem; font-size: 1.5rem; padding: 0rem; width:90%; text-align: center; color: white; text-shadow: 0 0 .5rem black; flex-grow: 1; height: 90%;")
         div.appendChild(rowdiv)
     }
 }
@@ -29,7 +29,7 @@ Tile.forEach((e) => {
     // reset the color after a short delay
     setTimeout(function() {
         e.target.style.background = "rgba(0,0,0,0.4)";
-    }, 1000)
+    }, 10000)
 })
 
 })
