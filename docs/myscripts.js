@@ -29,7 +29,7 @@ Tile.forEach((e) => {
     // reset the color after a short delay
     setTimeout(function() {
         e.target.style.background = "rgba(0,0,0,0.4)";
-    }, 10000)
+    }, 15000)
 })
 
 })
